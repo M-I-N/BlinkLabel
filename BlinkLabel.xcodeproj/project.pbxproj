@@ -12,6 +12,7 @@
 		AFBB64B92283D0FD009C71A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFBB64B72283D0FD009C71A1 /* Main.storyboard */; };
 		AFBB64BB2283D104009C71A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFBB64BA2283D104009C71A1 /* Assets.xcassets */; };
 		AFBB64BE2283D104009C71A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFBB64BC2283D104009C71A1 /* LaunchScreen.storyboard */; };
+		AFBB64C62283D158009C71A1 /* BlinkLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBB64C52283D158009C71A1 /* BlinkLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AFBB64BA2283D104009C71A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFBB64BD2283D104009C71A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFBB64BF2283D104009C71A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFBB64C52283D158009C71A1 /* BlinkLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinkLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				AFBB64B32283D0FD009C71A1 /* AppDelegate.swift */,
 				AFBB64B52283D0FD009C71A1 /* ViewController.swift */,
+				AFBB64C52283D158009C71A1 /* BlinkLabel.swift */,
 				AFBB64B72283D0FD009C71A1 /* Main.storyboard */,
 				AFBB64BA2283D104009C71A1 /* Assets.xcassets */,
 				AFBB64BC2283D104009C71A1 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFBB64C62283D158009C71A1 /* BlinkLabel.swift in Sources */,
 				AFBB64B62283D0FD009C71A1 /* ViewController.swift in Sources */,
 				AFBB64B42283D0FD009C71A1 /* AppDelegate.swift in Sources */,
 			);
@@ -213,7 +217,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -291,7 +295,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bjitgroup.BlinkLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -309,7 +313,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bjitgroup.BlinkLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

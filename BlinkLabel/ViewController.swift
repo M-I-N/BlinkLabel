@@ -10,11 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var blinkableLabel: BlinkLabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        blinkableLabel.colors = [.red, .green]
     }
 
+    @IBAction func startButtonDidTap(_ sender: UIButton) {
+        blinkableLabel.startBlinking()
+    }
 
+    @IBAction func stopButtonDidTap(_ sender: UIButton) {
+        blinkableLabel.stopBlinking()
+    }
 }
 
