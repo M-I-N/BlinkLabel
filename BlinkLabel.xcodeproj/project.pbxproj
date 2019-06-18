@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AFBB64B42283D0FD009C71A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBB64B32283D0FD009C71A1 /* AppDelegate.swift */; };
-		AFBB64B62283D0FD009C71A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBB64B52283D0FD009C71A1 /* ViewController.swift */; };
+		AFBB64B62283D0FD009C71A1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFBB64B52283D0FD009C71A1 /* HomeViewController.swift */; };
 		AFBB64B92283D0FD009C71A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFBB64B72283D0FD009C71A1 /* Main.storyboard */; };
 		AFBB64BB2283D104009C71A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFBB64BA2283D104009C71A1 /* Assets.xcassets */; };
 		AFBB64BE2283D104009C71A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFBB64BC2283D104009C71A1 /* LaunchScreen.storyboard */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		AFBB64B02283D0FD009C71A1 /* BlinkLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlinkLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFBB64B32283D0FD009C71A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AFBB64B52283D0FD009C71A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFBB64B52283D0FD009C71A1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AFBB64B82283D0FD009C71A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFBB64BA2283D104009C71A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFBB64BD2283D104009C71A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				AFBB64B32283D0FD009C71A1 /* AppDelegate.swift */,
-				AFBB64B52283D0FD009C71A1 /* ViewController.swift */,
+				AFBB64B52283D0FD009C71A1 /* HomeViewController.swift */,
 				AFBB64C52283D158009C71A1 /* BlinkLabel.swift */,
 				AFBB64B72283D0FD009C71A1 /* Main.storyboard */,
 				AFBB64BA2283D104009C71A1 /* Assets.xcassets */,
@@ -139,7 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFBB64C62283D158009C71A1 /* BlinkLabel.swift in Sources */,
-				AFBB64B62283D0FD009C71A1 /* ViewController.swift in Sources */,
+				AFBB64B62283D0FD009C71A1 /* HomeViewController.swift in Sources */,
 				AFBB64B42283D0FD009C71A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
